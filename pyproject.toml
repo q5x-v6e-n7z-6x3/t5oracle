@@ -1,0 +1,22 @@
+[project]
+name = "t5oracle"
+version = "0.1.0"
+description = "Generate random T5 Oracle codes from Python or the command line."
+readme = "README.md"
+authors = [
+    { name = "q5x-v6e-n7z-6x3" }
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+t5oracle = "t5oracle.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1,<9",
+]
