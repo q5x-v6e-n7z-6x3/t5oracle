@@ -1,6 +1,6 @@
 [project]
 name = "t5oracle"
-version = "0.1.0"
+version = "0.1.1"
 description = "Generate random T5 Oracle codes from Python or the command line."
 readme = "README.md"
 authors = [
